@@ -8,13 +8,15 @@ import pyautogui
 acid = "enter your amarill college id"
 acpass = "enter your amarillo college passsword"
 
-pyautogui.hotkey('command', 'space')
+# these are keys for mac, change to windwos if youre using windows
+pyautogui.hotkey('command', 'space') # bring up spotlight search
 pyautogui.typewrite('firefox')
 pyautogui.hotkey('enter')
 
 time.sleep(4)
 
-pyautogui.hotkey('command', 'l')
+# these are keys for mac, change to windwos if youre using windows
+pyautogui.hotkey('command', 'l') # click address bar
 pyautogui.typewrite('https://actx.blackboard.com/webapps/login/')
 pyautogui.hotkey('enter')
 
