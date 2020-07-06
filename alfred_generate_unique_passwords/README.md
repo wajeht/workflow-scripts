@@ -2,10 +2,10 @@
 
 Download the alfredworkflow and click import
 
-> pass {query}
+> _pass {query}_
 
 for example:
 
-> pass 20 <br>
+> _pass 20_ <br>
 
 will create 20 unique characters long passwords. This script is written using python!
